@@ -7,13 +7,13 @@ An example for a CNF grammar:
 Terminals:      a,b,...,z,+
 Nonterminals:   E,Y+,S+
 Rules:			
-				E->a
-				E->b
-				...
-				E->z
-				E->E Y+
-				Y+->S+ E
-				S+->+
+			E->a
+			E->b
+			...
+			E->z
+			E->E Y+
+			Y+->S+ E
+			S+->+
 Starting symbol:E
 
 This grammar creates the language of arithmetic expressions composed of sums of variables.

@@ -1,0 +1,24 @@
+An interactive CYK parser written in Python.
+
+A CYK parser only accepts grammars in the Chomsky Normal Form (CNF).
+
+An example for a CNF grammar:
+
+Terminals:		a,b,...,z,+
+Nonterminals:	E,Y+,S+
+Rules:			
+				E->a
+				E->b
+				...
+				E->z
+				E->E Y+
+				Y+->S+ E
+				S+->+
+Starting symbol:E
+
+This grammar creates the language of arithmetic expressions composed of sums of variables.
+For example: "a","b","a+b","x+y+z" are part of the language, while "++a" or "ab" aren't.
+
+More info:
+	CYK Algorithm - 		https://en.wikipedia.org/wiki/CYK_algorithm
+	Chomsky Normal Form - 	https://en.wikipedia.org/wiki/Chomsky_normal_form

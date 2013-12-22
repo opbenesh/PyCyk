@@ -20,5 +20,5 @@ This grammar creates the language of arithmetic expressions composed of sums of 
 For example: "a","b","a+b","x+y+z" are part of the language, while "++a" or "ab" aren't.
 
 More info:
-	CYK Algorithm - 		https://en.wikipedia.org/wiki/CYK_algorithm
+	CYK Algorithm - 	https://en.wikipedia.org/wiki/CYK_algorithm
 	Chomsky Normal Form - 	https://en.wikipedia.org/wiki/Chomsky_normal_form

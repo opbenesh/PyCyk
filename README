@@ -4,8 +4,8 @@ A CYK parser only accepts grammars in the Chomsky Normal Form (CNF).
 
 An example for a CNF grammar:
 
-Terminals:		a,b,...,z,+
-Nonterminals:	E,Y+,S+
+Terminals:      a,b,...,z,+
+Nonterminals:   E,Y+,S+
 Rules:			
 				E->a
 				E->b
